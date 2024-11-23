@@ -1,0 +1,32 @@
+body{
+    font-family: monospace;
+    border-color: #B4B4B8;
+    background-color: #BC6FF1;
+    margin: 2;
+    text-align: center;
+}
+.cont p{
+    font-size: 25px;
+}
+.cont select,option{
+    width: 60px;
+}
+
+button {
+    background-color: #52057B;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #892CDC;
+}
+button:active {
+    background-color: #9c3af3;
+    transform: scale(0.98);
+}

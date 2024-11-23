@@ -1,0 +1,60 @@
+:root{
+    --negro: #191919;
+    --moradooscuro: #52057B;
+    --morado: #892CDC;
+    --azul:rgb(18, 48, 174);
+    --gris_claro: #B4B4B8;
+  }
+
+  html {
+    box-sizing: border-box;
+    background-color: var(--gris_claro);
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+    .encabezado {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 120rem;
+      margin: 3rem auto;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--moradooscuro);
+      padding-top: 3rem;
+      margin-bottom: 0;
+    }
+  
+   h1, h2, h3 {
+    text-align: center;
+  }
+
+  h1 {
+    color: var(--moradooscuro);
+    font-size: 3.5rem;
+  }
+
+  span {
+    color: var(--morado);
+    font-size: 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover h1, a:hover h1 span {
+    color: var(--azul);
+  }
+  
+    h2 {
+      font-size: 30;
+      text-align: center;
+      color: var(--moradooscuro);
+      margin: 0;
+    }

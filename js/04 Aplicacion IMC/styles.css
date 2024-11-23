@@ -1,0 +1,54 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #bd6ff1a5;
+}
+
+button {
+    background-color: #52057B;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #892CDC;
+}
+button:active {
+    background-color: #9c3af3;
+    transform: scale(0.98);
+}
+.result {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.bajo-peso {
+    color: #00b0f0;
+}
+
+.normal {
+    color: #00af50;
+}
+
+.sobrepeso {
+    color: #f7c600;
+}
+
+.obesidad-1 {
+    color: #f88a00;
+}
+
+.obesidad-2 {
+    color: #f85a3e;
+}
+
+.obesidad-3 {
+    color: #ed1c24;
+}

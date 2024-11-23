@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Personal</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ <h1>Juan José Renteria Haro <span>Ingeniero en Computación</span></h1>
+<!-- Menu de navegación -->
+<div class="fondo-nav">
+    <nav class="menu">
+        <a href="./index.html">Incio</a>
+        <a href="./clientes/cliente.html">Clientes</a>
+        <a href="./cvu/index.html">Sobre mi</a>
+        <a href="./contacto/index.html">Contacto</a>
+     </nav>
+</div>
+
+<div class="imagen-fondo flex">
+    <div class="color-fondo">
+        <h2 class="head-2">Estudiante de Ingeniería en Computación</h2>
+        <div class="ubicacion">
+            <svg class = "location" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EEEEEE" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <p class="p-ubicacion">Guadalajara, Jalisco</p>
+        </div>
+        <div class="boton-margen">
+            <a class="boton" href="./contacto/index.html">Contacto</a>
+        </div>
+    </div>      
+</div>
+
+<main class="contenedor sombra">
+    <h2 class="head-servicios">Algunos de mis servicios</h2>
+    <div class="servicios">    
+        <!-- Servicio 1 -->    
+        <section class="servicio">
+            <h3 class="head-3">Formatos CSS</h3>
+            <a href="./csshtml/index.html">
+                <div class="icon-servicio">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" width="84" height="84" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2l-8 2l1.5 15.5l6.5 2l6.5-2l1.5-15.5z" fill="#1572B6" />
+                        <path d="M12 20l-4.5-1.2l-.3-3.5h3.8l.2 1.5l3.5-1l.2-1.5H8.5l-.5-4h6.8l.3-3.5h-9L5.5 4h13l-1.2 10.2l-4.8 1.8z" fill="#33A9DC" />
+                        <path fill="#0c73b8" d="M41 460L0 0h451l-41 460-185 52"/>
+                        <path fill="#30a9dc" d="M226 472l149-41 35-394H226"/>
+                        <path fill="#ecedee" d="M226 208H94l5 57h127zm0-114H84l5 56h137zm0 261l-124-33 7 60 117 32z"/>
+                        <path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 26-288H226v56h80l-6 58h-74z"/>
+                      </svg>
+                </div>
+            </a>
+            <p class="p-servicio">
+                CSS es un lenguaje usado para describir la apariencia y el formato de un documento escrito en HTML o XML. Es esencial para darle estilo y diseño a las páginas web, permitiendo que sean más atractivas y fáciles de usar.  
+            </p>
+        </section>
+        <!-- Servicio 2 -->
+        <section class="servicio">
+            <h3 class="head-3">Flexbox/Grid</h3>
+            <a href="./flexbox-grid/index.html">
+            <div class="icon-servicio">
+                <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="5" width="16" height="4" rx="1" />
+                    <rect x="4" y="10" width="10" height="4" rx="1" />
+                    <rect x="4" y="15" width="6" height="4" rx="1" />
+                </svg>
+            </div>
+            </a>
+            <p class="p-servicio">
+                Flexbox y Grid son herramientas de diseño en CSS que ayudan a crear layouts (distribución de elementos) de manera eficiente y flexible. Aunque tienen similitudes, cada uno es más adecuado para ciertos casos según la complejidad del diseño.  
+            </p>
+        </section>
+        <!-- Servicio 3 -->
+        <section class="servicio">
+            <h3 class="head-3">JavaScript</h3>
+            <a href="./js/index.html">
+            <div class="icon-servicio">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="84" height="84" viewBox="0 0 630 630" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="630" height="630" fill="#f7df1e"/>
+                    <path d="m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z"/>
+                  </svg>
+            </div>
+            </a>
+            <p class="p-servicio">
+                JavaScript es un lenguaje de programación ampliamente usado para crear contenido dinámico e interactivo en páginas web. Junto con HTML y CSS, forma el núcleo del desarrollo web.
+            </p>
+        </section>
+    </div>
+    <div class="formulario">
+        <h2 class = "head-servicios">Contacto</h2>
+        <form action="">
+            <fieldset>
+                <legend>Ingresa todos tus datos y me pondre en contacto contigo</legend>
+                <div class="campos">
+                    <div class="campo">
+                        <label for="">Nombre:</label>
+                        <input class="text-input" placeholder = "Nombre" type="text" name="" id="">
+                    </div>
+                    <div class="campo">
+                        <label for="">Teléfono:</label>
+                        <input class="text-input" placeholder = "Teléfono" type="text" name="" id="">
+                    </div>
+                    <div class="campo">
+                        <label for="">Correo electrónico:</label>
+                        <input class="text-input" placeholder = "Correo electrónico" type="text" name="" id="">
+                    </div>
+                    <div class="campo">
+                        <label for="">Mensaje:</label>
+                        <textarea class="text-area" placeholder="Mensaje" name="" id="">
+                            
+                        </textarea>
+                    </div>    
+                </div>        
+                <div class="align-boton">
+                    <input class="boton" type="button" value="Enviar"> 
+                </div>    
+                   
+            </fieldset>
+            
+        </form>
+    </div>
+</main>
+
+<footer>
+    Todos los derechor reservados - Eduardo Rangel Heras
+</footer>
+</body>
+</html>
